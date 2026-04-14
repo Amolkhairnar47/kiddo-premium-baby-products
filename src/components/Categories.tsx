@@ -13,7 +13,7 @@ export default function Categories() {
   return (
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-center text-kiddo-dark mb-12">Shop by Category</h2>
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center text-kiddo-dark mb-12">Shop by Category</h2>
         <div className="flex flex-wrap justify-center gap-8 md:gap-12">
           {categories.map((cat, i) => (
             <motion.div 

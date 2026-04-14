@@ -30,8 +30,8 @@ export default function FAQ() {
     <section className="py-2 px-4 bg-white">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-extrabold text-kiddo-dark mb-4">Got Questions?</h2>
-          <p className="text-2xl font-bold text-kiddo-dark font-heading">We've Got Answers!</p>
+          <h2 className="text-2xl md:text-3xl font-extrabold text-kiddo-dark mb-4">Got Questions?</h2>
+          <p className="text-2xl md:text-3xl font-bold text-kiddo-dark font-heading">We've Got Answers!</p>
         </div>
         <Accordion type="single" collapsible className="w-full space-y-4">
           {faqs.map((faq, i) => (

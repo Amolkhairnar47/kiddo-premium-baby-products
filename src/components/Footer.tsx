@@ -31,6 +31,7 @@ export default function Footer() {
             </div>
           </div>
 
+          
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-bold mb-6">Quick Links</h4>
@@ -41,7 +42,7 @@ export default function Footer() {
               <li><a href="#contact" className="hover:text-white transition-colors">Contact Us</a></li>
             </ul>
           </div>
-
+          
           {/* Categories */}
           <div>
             <h4 className="text-lg font-bold mb-6">Categories</h4>
@@ -64,6 +65,7 @@ export default function Footer() {
               Call us:<br />
               <span className="text-white font-medium">+91 12345 67890</span>
             </p>
+          
           </div>
         </div>
 

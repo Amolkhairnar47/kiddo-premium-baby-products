@@ -34,7 +34,7 @@ export default function FeaturedProducts() {
   return (
     <section className="py-0 bg-white ">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-extrabold text-center text-kiddo-dark mb-12">Featured Products</h2>
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center text-kiddo-dark mb-12">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {products.map((product) => (
             <motion.div

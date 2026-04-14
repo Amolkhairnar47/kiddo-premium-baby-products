@@ -20,22 +20,22 @@ export default function AboutUs() {
 
           {/* Text Side */}
           <div>
-            <h2 className="text-4xl font-extrabold text-kiddo-dark mb-8">About Us</h2>
+            <h2 className="text-2xl md:text-3xl text-center md:text-left font-extrabold text-kiddo-dark mb-8">About Us</h2>
             <div className="space-y-6 text-gray-600 leading-relaxed">
-              <p className="font-medium text-lg font-heading">
+              <p className="font-medium text-lg text-center md:text-left font-heading">
                 Welcome to Kiddo — Where Little Moments Become Big Memories.
               </p>
-              <p>
+              <p className="text-center md:text-left">
                 Founded with one simple belief — that every child deserves safe, quality products — 
                 Kiddo is India's trusted destination for baby and kids essentials. We offer a carefully 
                 selected range of toys, clothing, feeding accessories, learning products, and daily-use 
                 items for children aged 1 to 4 years.
               </p>
-              <p>
+              <p className="text-center md:text-left">
                 Our stores across India bring the Kiddo experience to your neighbourhood, while our 
                 website lets you shop from the comfort of your home — with fast delivery right to your door.
               </p>
-              <p>
+              <p className="text-center md:text-left">
                 At Kiddo, we don't just sell products. We support parents, celebrate childhood, and 
                 make every little moment count.
               </p>

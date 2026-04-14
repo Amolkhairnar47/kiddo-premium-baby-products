@@ -23,15 +23,15 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-2xl"
         >
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+          <h1 className="text-3xl md:text-7xl font-extrabold text-white text-center md:text-left leading-tight mb-6">
             Safe, Soft & <br />
             Beautifully Made
           </h1>
-          <p className="text-lg md:text-xl text-white/90 mb-8 font-medium leading-relaxed">
+          <p className="text-lg md:text-xl text-white/90 text-center md:text-left mb-8 font-medium leading-relaxed">
             Trusted by parents across India. Every product is crafted with care — clean materials, 
             thoughtful design, and a gentle touch that little ones deserve.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center md:justify-start">
             <Button className="bg-kiddo-pink text-kiddo-dark hover:bg-kiddo-accent hover:text-white px-10 py-6 text-lg font-bold rounded-full transition-all duration-300 shadow-lg border-none">
               Shop Now
             </Button>
