@@ -32,7 +32,7 @@ const products = [
 
 export default function FeaturedProducts() {
   return (
-    <section className="py-0 bg-white">
+    <section className="py-0 bg-white ">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-extrabold text-center text-kiddo-dark mb-12">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -42,7 +42,7 @@ export default function FeaturedProducts() {
               whileHover={{ y: -5 }}
               className="h-full"
             >
-              <Card className="overflow-hidden border  border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col rounded-[32px]">
+              <Card className="overflow-hidden  border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col rounded-[32px]">
                 <div className={`${product.bgColor} p-8 aspect-square flex items-center justify-center overflow-hidden`}>
                   <img 
                     src={product.image} 

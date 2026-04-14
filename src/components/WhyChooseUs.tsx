@@ -6,28 +6,28 @@ const reasons = [
     icon: <ShieldCheck className="w-8 h-8" />,
     title: "100% BIS Certified",
     desc: "Every product is tested and certified safe for babies and toddlers.",
-    color: "bg-white border border-gray-100",
+    color: "bg-white border border-kiddo-purple/50",
     iconColor: "bg-kiddo-pink/50 text-kiddo-dark"
   },
   {
     icon: <Leaf className="w-8 h-8" />,
     title: "Non-Toxic Eco Friendly",
     desc: "Made from natural, baby-safe materials. Good for your child & the planet.",
-    color: "bg-white border border-gray-100",
+    color: "bg-white border border-kiddo-blue/50",
     iconColor: "bg-kiddo-blue/50 text-kiddo-dark"
   },
   {
     icon: <Heart className="w-8 h-8" />,
     title: "50,000+ Happy Parents",
     desc: "Trusted by families across India — online and in our retail stores.",
-    color: "bg-white border border-gray-100",
+    color: "bg-white border border-kiddo-purple/50",
     iconColor: "bg-kiddo-purple/50 text-kiddo-dark"
   },
   {
     icon: <LayoutGrid className="w-8 h-8" />,
     title: "1000+ Products Available",
     desc: "Toys, clothing, feeding, learning & daily care — all in one place.",
-    color: "bg-white border border-gray-100",
+    color: "bg-white border border-kiddo-green/50",
     iconColor: "bg-kiddo-green/50 text-kiddo-dark"
   }
 ];
@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
           {reasons.map((reason, i) => (
             <div 
               key={i} 
-              className={`${reason.color} p-8 rounded-[40px] flex flex-col items-center text-center transition-transform hover:scale-105 duration-300`}
+              className={`${reason.color} p-8 rounded-[40px] flex flex-col items-center text-center  transition-transform hover:scale-105 duration-300`}
             >
               <div className={`${reason.iconColor} p-4 rounded-2xl mb-6`}>
                 {reason.icon}
