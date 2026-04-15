@@ -51,7 +51,7 @@ export default function FeaturedProducts() {
                     referrerPolicy="no-referrer"
                   />
                 </div>
-                <CardContent className="p-10 flex-grow bg-kiddo-pink/30">
+                <CardContent className="p-10 flex-grow bg-kiddo-pink/30 rounded-b-[32px]">
                   <h3 className="text-xl font-bold text-kiddo-dark mb-1">{product.name}</h3>
                   <p className="text-sm text-gray-500 mb-4">{product.age}</p>
                   <div className="flex justify-between items-center">
