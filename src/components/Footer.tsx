@@ -74,7 +74,7 @@ export default function Footer() {
     //     </div>
     //   </div>
     // </footer>
-    <footer className="bg-kiddo-dark text-white py-20 px-4">
+    <footer id="contact" className="bg-kiddo-dark text-white py-20 px-4">
   <div className="max-w-7xl mx-auto">
     <div className="mb-16">
 

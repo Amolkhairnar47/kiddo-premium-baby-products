@@ -10,7 +10,7 @@ const products = [
     age: "Age 1-4 Years",
     price: 499,
     image: "/images/61AOAZ8jbxL._SX679_.jpg",
-    bgColor: ""
+    bgColor: "bg-kiddo-pink"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const products = [
     age: "Age 1-4 Years",
     price: 599,
     image: "/images/81CAevJ5rWL._SL1500_.jpg",
-    bgColor: ""
+    bgColor: "bg-kiddo-purple"
   },
   {
     id: 3,
@@ -26,13 +26,13 @@ const products = [
     age: "Age 1-4 Years",
     price: 899,
     image: "/images/51sxzC9kBpL.jpg",
-    bgColor: ""
+    bgColor: "bg-kiddo-pink"
   }
 ];
 
 export default function FeaturedProducts() {
   return (
-    <section className="py-0 bg-white ">
+    <section id="shop" className="py-0 bg-white ">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-extrabold text-center text-kiddo-dark mb-12">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ export default function FeaturedProducts() {
               className="h-full"
             >
               <Card className="overflow-hidden  border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col rounded-[32px]">
-                <div className={`${product.bgColor} p-8 aspect-square flex items-center justify-center overflow-hidden`}>
+                <div className="p-8 aspect-square flex items-center justify-center overflow-hidden">
                   <img 
                     src={product.image} 
                     alt={product.name} 
@@ -51,7 +51,7 @@ export default function FeaturedProducts() {
                     referrerPolicy="no-referrer"
                   />
                 </div>
-                <CardContent className="p-10 flex-grow bg-kiddo-pink/30 rounded-b-[32px]">
+                <CardContent className={`${product.bgColor} p-10 flex-grow rounded-b-[32px]`}>
                   <h3 className="text-xl font-bold text-kiddo-dark mb-1">{product.name}</h3>
                   <p className="text-sm text-gray-500 mb-4">{product.age}</p>
                   <div className="flex justify-between items-center">

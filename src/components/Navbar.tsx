@@ -29,13 +29,13 @@ export default function Navbar() {
 
           {/* Icons */}
           <div className="flex items-center gap-4">
-            <button className="p-2 text-kiddo-dark hover:bg-kiddo-pink/20 rounded-full transition-all">
+            {/* <button className="p-2 text-kiddo-dark hover:bg-kiddo-pink/20 rounded-full transition-all">
               <User size={20} />
             </button>
             <button className="p-2 text-kiddo-dark hover:bg-kiddo-pink/20 rounded-full transition-all relative">
               <ShoppingCart size={20} />
               <span className="absolute top-0 right-0 bg-kiddo-accent text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">2</span>
-            </button>
+            </button> */}
             <button className="md:hidden p-2 text-kiddo-dark hover:bg-kiddo-pink/20 rounded-full transition-all">
               <Menu size={20} />
             </button>

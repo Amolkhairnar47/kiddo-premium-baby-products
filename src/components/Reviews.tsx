@@ -23,7 +23,7 @@ export default function Reviews() {
         <h2 className="text-2xl md:text-3xl font-extrabold text-center text-kiddo-dark mb-16">Parent Reviews</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {reviews.map((review, i) => (
-            <div key={i} className="bg-kiddo-green/30 p-10 rounded-[40px] relative overflow-hidden">
+            <div key={i} className="bg-kiddo-green p-10 rounded-[40px] relative overflow-hidden">
               <div className="flex gap-1 mb-6">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} size={16} className="fill-orange-400 text-orange-400" />

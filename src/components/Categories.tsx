@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 const categories = [
-  { name: "Clothing", color: "bg-kiddo-pink/50", icon: "👕" },
-  { name: "Toys", color: "bg-kiddo-purple/50", icon: "🧸" },
-  { name: "feeding", color: "bg-kiddo-blue/50", icon: "🍼" },
-  { name: "Learning", color: "bg-kiddo-yellow/50", icon: "🧩" },
-  { name: "Daily Care", color: "bg-kiddo-accent/30", icon: "🧴" }
+  { name: "Clothing", color: "bg-kiddo-pink", icon: "👕" },
+  { name: "Toys", color: "bg-kiddo-purple", icon: "🧸" },
+  { name: "feeding", color: "bg-kiddo-blue", icon: "🍼" },
+  { name: "Learning", color: "bg-kiddo-yellow", icon: "🧩" },
+  { name: "Daily Care", color: "bg-kiddo-pink", icon: "🧴" }
 ];
 
 export default function Categories() {
